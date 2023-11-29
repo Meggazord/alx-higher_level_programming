@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 for x in range(0, 10):
     for y in range(x + 1, 10):
-        print(f"{x}{y}", end=", " if x != 8 or y != 9 else "\n")
+        print("{}{}".format(x, y), end=", " if x != 8 or y != 9 else "\n")
