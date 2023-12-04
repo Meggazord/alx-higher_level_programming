@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 def no_c(my_string):
-    new_string = ""
-    for i in my_string:
-        if i != 'c' and i != 'C':
-            new_string += i
-    return new_string
+    result = ""
+    for char in my_string:
+        if char != 'c' and char != 'C':
+            result += char
+    return result
 
 
 print(no_c("Best School"))
