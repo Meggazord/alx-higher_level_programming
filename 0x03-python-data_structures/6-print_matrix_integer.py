@@ -6,6 +6,3 @@ def print_matrix_integer(matrix=[[]]):
             print("{}".format(x), end=" ")
             x += 1
         print()
-
-
-print_matrix_integer()
