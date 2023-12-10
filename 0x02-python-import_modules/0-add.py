@@ -1,13 +1,8 @@
 #!/usr/bin/python3
-with open('add_0.py', 'r') as file:
-    code = file.read()
+from add_0 import add
 
-exec(code)
+if __name__ == "__main__":
+    a = 1
+    b = 2
 
-a = 1
-b = 2
-
-add = locals()['add']
-
-result = add(a, b)
-print(f"{a} + {b} = {result}")
+    print("{} + {} = {}".format(a, b, add(a, b)))
