@@ -75,8 +75,3 @@ class SinglyLinkedList:
             current = current.next_node
 
         return (result)
-
-
-sll = SinglyLinkedList()
-sll.sorted_insert(2)
-print(sll)
