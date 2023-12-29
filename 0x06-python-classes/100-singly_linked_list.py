@@ -67,8 +67,16 @@ class SinglyLinkedList:
 
         current = self.head
 
-        while(current):
-            result += str(current.data) + "\n"
+        while (current):
+            if current.next_node is None:
+                result += str(current.data)
+            else:
+                result += str(current.data) + "\n"
             current = current.next_node
 
         return (result)
+
+
+sll = SinglyLinkedList()
+sll.sorted_insert(2)
+print(sll)
