@@ -25,9 +25,8 @@ class Rectangle():
             width (int): The width of the new rectangle.
             height (int): The height of the new rectangle.
         """
-        self.__width = width
-        self.__height = height
-        self.print_symbol = Rectangle.print_symbol
+        self.width = width
+        self.height = height
         Rectangle.number_of_instances += 1
 
     @property
@@ -77,8 +76,9 @@ class Rectangle():
             return ""
         else:
             rect_str = ""
+            Rectangle.print_symbol = str(self.print_symbol)
             for _ in range(self.__height):
-                rect_str += self.print_symbol * self.__width + "\n"
+                rect_str += Rectangle.print_symbol * self.__width + "\n"
             return rect_str[:-1]
 
     def __repr__(self):
@@ -92,28 +92,3 @@ class Rectangle():
         if Rectangle.number_of_instances < 0:
             Rectangle.number_of_instances = 0
         print("Bye rectangle...")
-
-
-my_rectangle_1 = Rectangle(8, 4)
-print(my_rectangle_1)
-print("--")
-my_rectangle_1.print_symbol = "&"
-print(my_rectangle_1)
-print("--")
-
-my_rectangle_2 = Rectangle(2, 1)
-print(my_rectangle_2)
-print("--")
-Rectangle.print_symbol = "C"
-print(my_rectangle_2)
-print("--")
-
-my_rectangle_3 = Rectangle(7, 3)
-print(my_rectangle_3)
-
-print("--")
-
-my_rectangle_3.print_symbol = ["C", "is", "fun!"]
-print(my_rectangle_3)
-
-print("--")
