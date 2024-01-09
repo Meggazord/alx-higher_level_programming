@@ -1,9 +1,6 @@
 #!/usr/bin/python3
 """
-Module for problem solving
-
-This module provides a function 'lookup' to inspect objects and retrieve a list of all attributes and methods
-belonging to their class.
+The module of the lookup function
 """
 
 
