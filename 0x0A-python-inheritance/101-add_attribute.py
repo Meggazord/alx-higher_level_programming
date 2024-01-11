@@ -2,7 +2,7 @@
 """
 This is a class
 
-A class representing a rebel integer inheriting from int.
+A class representing a rebel integer inheriting int.
 It inverts the behavior of the equality and inequality operators.
 """
 
