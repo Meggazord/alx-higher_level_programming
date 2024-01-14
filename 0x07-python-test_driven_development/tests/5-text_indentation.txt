@@ -1,0 +1,32 @@
+The ``5-text_indentation`` module
+============================
+
+Using ``text_indentation``
+---------------------
+
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+# Testing for text not a string
+    >>> text_indentation(3)
+    Traceback (most recent call last):
+        ...
+    TypeError: text must be a string
+
+# Testing for function with no input
+    >>> text_indentation()
+    Traceback (most recent call last):
+        ...
+    TypeError: text_indentation() missing 1 required positional argument: 'text'
+
+
+# Testing for spaces at the begining of the line:
+    >>> text_indentation("This is a test. Should work")
+    This is a test.
+    <BLANKLINE>
+    Should work
+
+# Testing for spaces at the end of the line:
+    >>> text_indentation("This is a test. Should work    ")
+    This is a test.
+    <BLANKLINE>
+    Should work
