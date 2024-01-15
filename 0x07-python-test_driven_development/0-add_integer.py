@@ -10,11 +10,3 @@ def add_integer(a, b=98):
     elif not isinstance(b, int) and not isinstance(b, float):
         raise TypeError("b must be an integer")
     return int(a) + int(b)
-
-"""
-try:
-    add_integer(None)
-except TypeError as e:
-    print(f"{e}")
-
-add_integer(float('nan'), 2) """
