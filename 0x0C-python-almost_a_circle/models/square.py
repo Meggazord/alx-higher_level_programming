@@ -38,3 +38,12 @@ class Square(Rectangle):
     def __str__(self):
         """returns Square dimensions"""
         return "[Square] ({}) <{}>/<{}> - <{}>".format(self.id, self.x, self.y, self.width)
+
+    def to_dictionary(self):
+        """returns dictionary representation of Rectangle"""
+        return {
+            'id': self.id,
+            'size': self.size,
+            'x': self.x,
+            'y': self.y
+        }
