@@ -3,7 +3,7 @@
 """ Module containing the Rectangle class """
 import sys
 sys.path.append(
-    '/Users/Megahed/alx/projects/alx-higher_level_programming/0x0C-python-almost_a_circle')
+    '/Users/Megahed/alx/projects/alx-higher_level_programming/0x0C-python-almost_a_circle/')
 
 from models.base import Base
 
@@ -112,3 +112,12 @@ class Rectangle(Base):
             'x': self.x,
             'y': self.y
         }
+
+    def to_csv_row(self):
+        """returns Square CSV representation"""
+        return [self.id, self.width, self.height, self.x, self.y]
+
+    @staticmethod
+    def create_from_csv_row(row):
+        """"creates Rectangle CSV representation"""
+        return Rectangle(int(row[1]), int(row[2]), int(row[3]), int(row[4]), int(row[0]))

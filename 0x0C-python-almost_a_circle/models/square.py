@@ -3,7 +3,7 @@
 """ Module containing the Square class """
 import sys
 sys.path.append(
-    '/Users/Megahed/alx/projects/alx-higher_level_programming/0x0C-python-almost_a_circle')
+    '/Users/Megahed/alx/projects/alx-higher_level_programming/0x0C-python-almost_a_circle/models')
 
 from models.rectangle import Rectangle
 
@@ -47,3 +47,12 @@ class Square(Rectangle):
             'x': self.x,
             'y': self.y
         }
+
+        def to_csv_row(self):
+            """returns Square CSV representation"""
+            return [self.id, self.width, self.x, self.y]
+
+        @staticmethod
+        def create_from_csv_row(row):
+            """"creates Square CSV representation"""
+            return Square(int(row[1]), int(row[2]), int(row[3]), int(row[0]))
