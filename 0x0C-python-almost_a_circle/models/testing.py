@@ -1,13 +1,10 @@
 #!/usr/bin/python3
 
 """ Testing """
-import sys
-sys.path.append(
-    '/Users/Megahed/alx/projects/alx-higher_level_programming/0x0C-python-almost_a_circle/')
 
-from models.base import Base
-from models.rectangle import Rectangle
-from models.square import Square
+from base import Base
+from rectangle import Rectangle
+from square import Square
 
 if __name__ == "__main__":
 

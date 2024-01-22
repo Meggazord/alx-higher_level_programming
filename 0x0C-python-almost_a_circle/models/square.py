@@ -1,11 +1,8 @@
 #!/usr/bin/python3
 
 """ Module containing the Square class """
-import sys
-sys.path.append(
-    '/Users/Megahed/alx/projects/alx-higher_level_programming/0x0C-python-almost_a_circle/models')
 
-from models.rectangle import Rectangle
+from rectangle import Rectangle
 
 
 class Square(Rectangle):
