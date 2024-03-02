@@ -2,7 +2,7 @@
 -- Connect to MySQL server using root user
 -- Credentials: root/root
 
-SELECT city, AVG(temperature) AS avg_temp
+SELECT city, AVG(value) AS avg_temp
 FROM temperatures
-GROUP BY city
+GROUP BY (city)
 ORDER BY avg_temp DESC;
