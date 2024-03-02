@@ -3,8 +3,6 @@
 -- Credentials: root/root
 -- Database name passed as an argument
 
-USE hbtn_0c_0;
-
 -- Create second_table if it does not exist
 CREATE TABLE IF NOT EXISTS second_table (
     id INT,

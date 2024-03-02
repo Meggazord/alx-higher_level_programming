@@ -4,6 +4,4 @@
 -- Credentials: root/root
 -- Database name passed as an argument
 
-USE hbtn_0c_0;
-
 SELECT AVG(score) AS average FROM second_table;

@@ -3,6 +3,4 @@
 -- Credentials: root/root
 -- Database name passed as an argument
 
-USE `mysql`;
-
 SHOW TABLES;

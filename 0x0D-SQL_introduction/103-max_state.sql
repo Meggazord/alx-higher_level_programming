@@ -2,8 +2,6 @@
 -- Connect to MySQL server using root user
 -- Credentials: root/root
 
-USE hbtn_0c_0;
-
 SELECT state, MAX(temp_column_name) AS max_temp
 FROM temperatures
 GROUP BY state

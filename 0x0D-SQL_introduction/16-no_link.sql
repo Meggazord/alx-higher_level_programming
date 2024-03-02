@@ -6,8 +6,6 @@
 -- Credentials: root/root
 -- Database name passed as an argument
 
-USE hbtn_0c_0;
-
 SELECT score, name
 FROM second_table
 WHERE name IS NOT NULL

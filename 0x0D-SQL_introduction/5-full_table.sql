@@ -3,6 +3,4 @@
 -- Credentials: root/root
 -- Database name passed as an argument
 
-USE hbtn_0c_0;
-
 SHOW CREATE TABLE first_table;
