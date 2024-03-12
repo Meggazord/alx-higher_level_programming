@@ -1,3 +1,4 @@
+#!/usr/bin/node
 // 8-square.js
 // a script that prints a square
 

@@ -1,3 +1,4 @@
+#!/usr/bin/node
 // 9-add.js
 // Define the add function
 

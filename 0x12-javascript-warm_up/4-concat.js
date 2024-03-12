@@ -1,3 +1,4 @@
+#!/usr/bin/node
 // 4-concat.js
 // Check if both arguments are provided
 

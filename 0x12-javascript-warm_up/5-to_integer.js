@@ -1,3 +1,4 @@
+#!/usr/bin/node
 // 5-to_integer.js
 // Get the first argument from the command line
 

@@ -1,3 +1,4 @@
+#!/usr/bin/node
 // 3-value_argument.js
 // Check if an argument is provided
 

@@ -1,3 +1,4 @@
+#!/usr/bin/node
 // 10-factorial.js
 // Define the factorial function
 

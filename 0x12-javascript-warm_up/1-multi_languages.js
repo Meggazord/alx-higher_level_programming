@@ -1,3 +1,4 @@
+#!/usr/bin/node
 // 1-multi_languages.js
 // Print three lines using console.log(...)
 

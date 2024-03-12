@@ -1,3 +1,4 @@
+#!/usr/bin/node
 // 11-second_biggest.js
 // Get the arguments from the command line
 

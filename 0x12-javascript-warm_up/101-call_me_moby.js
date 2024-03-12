@@ -1,3 +1,4 @@
+#!/usr/bin/node
 // 101-call_me_moby.js
 // Define the function to execute x times
 

@@ -1,3 +1,4 @@
+#!/usr/bin/node
 // 2-arguments.js
 // Get the number of arguments passed to the script
 
