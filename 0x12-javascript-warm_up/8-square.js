@@ -1,7 +1,4 @@
 #!/usr/bin/node
-// 8-square.js
-// a script that prints a square
-
 const arg = process.argv[2];
 const size = parseInt(arg);
 

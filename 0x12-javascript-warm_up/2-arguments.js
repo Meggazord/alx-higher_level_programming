@@ -1,7 +1,4 @@
 #!/usr/bin/node
-// 2-arguments.js
-// Get the number of arguments passed to the script
-
 const numArgs = process.argv.length - 2;
 
 if (numArgs === 0) {
